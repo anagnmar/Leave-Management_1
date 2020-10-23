@@ -6,7 +6,7 @@ using System.Collections.Generic;
 namespace Leave_Management_.Contracts
 {
 
-    interface IRepositoryBase<T> where T : class
+    public interface IRepositoryBase<T> where T : class
     {
 
         ICollection<T> FindAll();

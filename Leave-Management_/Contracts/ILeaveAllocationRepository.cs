@@ -6,7 +6,7 @@ using Leave_Management_.Data;
 
 namespace Leave_Management_.Contracts
 {
-    interface ILeaveAllocationRepository : IRepositoryBase<LeaveAllocation>
+    public interface ILeaveAllocationRepository : IRepositoryBase<LeaveAllocation>
     {
 
     }

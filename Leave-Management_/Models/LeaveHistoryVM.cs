@@ -24,7 +24,7 @@ namespace Leave_Management_.Models
         public bool? Approved { get; set; }
 
 
-        public DetailsLeaveTypeVM LeaveType { get; set; }
+        public LeaveTypeVM LeaveType { get; set; }
         public int LeaveTypeId { get; set; }
 
         public EmployeeVM ApprovedBy { get; set; }

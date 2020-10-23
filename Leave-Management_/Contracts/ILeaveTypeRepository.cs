@@ -6,7 +6,7 @@ using Leave_Management_.Data;
 
 namespace Leave_Management_.Contracts
 {
-    interface ILeaveTypeRepository :IRepositoryBase<LeaveType>
+    public interface ILeaveTypeRepository :IRepositoryBase<LeaveType>
     {
 
 

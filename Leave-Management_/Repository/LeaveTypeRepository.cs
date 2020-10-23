@@ -16,7 +16,6 @@ namespace Leave_Management_.Repository
             _db = db;
         }
 
-
         public ICollection<LeaveType> FindAll()
         {
             var leaveTypes = _db.LeaveTypes.ToList();
@@ -28,7 +27,6 @@ namespace Leave_Management_.Repository
             var leaveType = _db.LeaveTypes.Find(id);
             return leaveType;
         }
-
 
         public bool Create(LeaveType entity)
         {
